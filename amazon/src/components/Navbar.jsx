@@ -3,6 +3,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import Tricolor from '../assets/tricolor.webp'
 import { IoMdArrowDropdown } from "react-icons/io";
 import { IoCartOutline } from "react-icons/io5";
+import CarouselComp from "./Carousel";
 
 export default function Navbar() {
   function showLanguages() {
@@ -49,7 +50,7 @@ export default function Navbar() {
         </div>
 
         {/* Select Language */}
-        <div className="items-center flex col-span-1">
+        <div className="items-center flex col-span-1 ml-4">
           <button
             className="relative border-[#131921] border rounded-sm hover:border-white hover:border p-2"
             onMouseOver={() => showLanguages()}
@@ -189,6 +190,7 @@ export default function Navbar() {
           </button>
         </div>
       </div>
+      <CarouselComp />
     </>
   );
 }
