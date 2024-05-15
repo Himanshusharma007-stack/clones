@@ -3,7 +3,6 @@ import { IoLocationOutline } from "react-icons/io5";
 import Tricolor from '../assets/tricolor.webp'
 import { IoMdArrowDropdown } from "react-icons/io";
 import { IoCartOutline } from "react-icons/io5";
-import CarouselComp from "./Carousel";
 
 export default function Navbar() {
   function showLanguages() {
@@ -190,7 +189,6 @@ export default function Navbar() {
           </button>
         </div>
       </div>
-      <CarouselComp />
     </>
   );
 }
