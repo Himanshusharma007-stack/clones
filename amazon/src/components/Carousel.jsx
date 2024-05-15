@@ -1,4 +1,3 @@
-import Tricolor from "../assets/tricolor.webp";
 import { Carousel } from "flowbite-react";
 
 export default function CarouselComp() {
